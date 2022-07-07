@@ -92,6 +92,7 @@ body {
 }
 
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -186,7 +187,6 @@ body {
 }
 
 .address-link {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -195,13 +195,13 @@ body {
 
 .address-link:hover,
 .address-link:focus {
-  color: #ffffff;
+  color: var(--accent-text-color);
 }
 
 /*Portfolio*/
 
 .filtr-butoon {
-  font-family: var(--main-font);
+  font-family: inherit;
   color: var(--main-text-color);
   font-weight: 500;
   font-size: 16px;
