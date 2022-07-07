@@ -116,7 +116,6 @@ body {
 }
 
 .features-desc {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -154,7 +153,6 @@ body {
 }
 
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -181,7 +179,6 @@ body {
 }
 
 .adress-street {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -211,6 +208,7 @@ body {
   line-height: 1.6;
   letter-spacing: 0.03em;
   background-color: var(--light);
+  cursor: pointer;
 }
 
 .filtr-butoon:hover,
@@ -228,7 +226,6 @@ body {
 }
 
 .portfolio-item {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
